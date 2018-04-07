@@ -7,6 +7,10 @@
 *.userosscache
 *.sln.docstates
 
+#ignore libs(build from boost)
+##must build form boost 
+lib/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
