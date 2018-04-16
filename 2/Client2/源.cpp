@@ -12,7 +12,6 @@ int main(int argc, char* argv[])
 		tcp::resolver resolver(io_service);
 		tcp::resolver::query query("49.140.95.57", "4567");
 		tcp::resolver::iterator endpoint_iterator = resolver.resolve(query);
-
 		tcp::socket socket(io_service);
 		boost::asio::connect(socket, endpoint_iterator);
 
