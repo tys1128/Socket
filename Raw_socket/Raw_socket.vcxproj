@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{B2BD0F5C-32D6-404F-A327-1794C37950D8}</ProjectGuid>
+    <ProjectGuid>{F9660490-AE83-4591-BBFF-EB973DC3B864}</ProjectGuid>
     <RootNamespace>Rawsocket</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -118,11 +118,11 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Downloads\ICMP Example\icmp_header.hpp" />
-    <ClInclude Include="D:\Downloads\ICMP Example\ipv4_header.hpp" />
+    <ClInclude Include="icmp_header.hpp" />
+    <ClInclude Include="ipv4_header.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\Downloads\ICMP Example\ping.cpp" />
+    <ClCompile Include="ping.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
